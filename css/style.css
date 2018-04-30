@@ -433,10 +433,15 @@ textarea {
 .error404 {
     background-image: url('images/bg-404.jpg');
     background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .errorPage404 {
     margin: auto;
+    position: sticky;
+    left : 25%;
+    right: 25%;
+    bottom: 20%;
 }
 
 #section404 {
